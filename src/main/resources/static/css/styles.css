@@ -1,0 +1,53 @@
+
+.messages-and-users {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.message-list {
+    width: 800px;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 30px;
+    background-color: #ADD8E6;
+    overflow-y: scroll;
+}
+
+.users-list {
+    width: 200px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #ADD8E6;
+}
+
+.controls {
+    display: none;
+}
+
+.new-message {
+    width: 800px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background-color: #B0C4DE;
+}
+
+.message-item {
+    margin: 20px;
+}
+
+.message-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.datetime {
+    color: blue;
+}
+
+.username {
+    font-weight: bold;
+    color: blue;
+}
